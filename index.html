@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">ROSIBEL </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">CONOCIMINETOS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">DIPLOMAS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/yo.jpg" alt="">
+            </div>
+            <h1>Rosibel Molina</h1>
+            <h2>Tecnico en Desarrollo de Software</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy Irma Rosibel Vasquez Molina.</span>
+
+            </span>Soy técnica en Desarrollo de Software. He completado cursos como Producción de Video
+        Adminstración de Base de Datos, entre otros. Mi pasión por la tegnología me impulsa a seguir aprendiendo</p>
+        <p>También tengo un diplomado e idioma inglés (nivle básico). He participado en la feria obteniendo el Segundo 
+            y Quinto ligar desarrollando aun más mis habilidades
+        </span>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            7646 7333
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            rosibelvasquezmolina@gmail.com
+                        </li>
+                        <li>
+                            <strong>Hithub</strong>
+                          irmarosibel
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            San Miguel Tepezontes, La Paz
+                        </li>
+                        <li>
+                       
+                        </li>
+                    </ul>
+                </div>
+ 
+           
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Conocimientos </h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Conocimientos Técnicos</h3>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Linux</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Hithub</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades</h3>
+                    <div class="skill">
+                        <span>Inglés (Básico)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyecto" class="proyecto">
+        <div class="contenido-seccion">
+            <h2>Proyectos </h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Hj_5FWXXJ1A?si=lSCzlwI6fHmbaVrl" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="overlay">
+                        <h3>Luces Automaticas</h3>
+                        <p>Este fue un proyecto hecho junto con unos compañeros el cual consistia 
+                            <p>en el encendido de luces por medio de la voz</p>
+                        <p>Con este proyecto participamos por primera vez en la feria CIMAT</p>
+                    </div>
+                </div>
+                        <div class="proyecto">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/HHREKRQSV-0?si=GLwv4oRMPiVZYQaK" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="overlay">
+                                <h3>SIMONT</h3>
+                                <p>Este fue el ultimo proyecto que hicimos junto a mis compañeros </p>
+                                <p>Consistia en un Sitio Web Para el monitoreo del transporte público</p>
+                                <p>Con este proyecto participamos en la feria CIMAT y ganamos Quinto lugar en Tegnología</p>
+                            </div>
+                        </div>
+                
+              
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Diplomas</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/html.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Web</h3>
+                        <p>Diploma de desarrollo web por parte de un curso en linea de google</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/insaforp.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Adobe Premier</h3>
+                        <p>Diploma en producción de video en  adobe premier por parte de insaforp</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/arduino.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Robotica</h3>
+                        <p>Diploma por haber terminadp el curso de robotica con arduino</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/reconocimiento cimat.jpg" alt="">
+                    <div class="overlay">
+                        <h3>reconocimiento</h3>
+                        <p>Reconocimiento por haber participado en la feria CIMAT y representar a la institución</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/simont.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diploma</h3>
+                        <p>Diploma entregado por CIMAT por ganar el 5 lugar en el área de Tegnología</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/eco agro.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diploma</h3>
+                        <p>Diploma entregado por CIMAT por gar el segundo en Ciencias</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/linux diploma.png" alt="">
+                    <div class="overlay">
+                        <h3>Diploma</h3>
+                        <p>Diploma por terminar el curos de Linux y aprender los conocimientos básicos</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/impresion 3d.png" alt="">
+                    <div class="overlay">
+                        <h3>Diploma</h3>
+                        <p>Diploma por terminar el curso de impresión 3D</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/git diploma.png" alt="">
+                    <div class="overlay">
+                        <h3>Diploma</h3>
+                        <p>Diploma entregado por terminar el curso de git y github y adquirir conocimientos básicos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+               
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/mapa.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                               San Miguel Tepezontes
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                               WhatsApp: 7646 7333
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                rosibelvasquezmolina@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
